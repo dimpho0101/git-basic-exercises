@@ -1,0 +1,167 @@
+    1  cd ../..
+    2  ls
+    3  cd mnt/
+    4  ls
+    5  cd c
+    6  ls
+    7  cd Users/
+    8  ls
+    9  cd All\ Users
+   10  ls
+   11  mkdir umuzi
+   12  rm -rf umuzi/
+   13  mkdir umuzi_bootcamp
+   14  cd umuzi_bootcamp/
+   15  git clone https://github.com/Umuzi-org/Dimpho-Putu-606-tilde-project-tutorial-how-repo-projects-work-.git
+   16  cd ..
+   17  git clone https://github.com/Umuzi-org/Dimpho-Putu-606-tilde-project-tutorial-how-repo-projects-work-.git
+   18  cd ..
+   19  ls
+   20  cd Dimpho\ Putu/
+   21  ls
+   22  cd Dimpho/
+   23  ls
+   24  cd DIm
+   25  cd Dimpho/
+   26  ls
+   27  cd ..
+   28  ls
+   29  cd Documents/
+   30  ls
+   31  cd Dimpho-Putu-606-tilde-project-tutorial-how-repo-projects-work-/
+   32  ls
+   33  git branch
+   34  git add .
+   35  git commit -m "ïntial commit"
+   36  git config user.name "dimpho0101"
+   37  cd ../..
+   38  ls
+   39  cd mnt/c/Users/
+   40  ls
+   41  cd Dimpho\ Putu/
+   42  ls
+   43  cd Documents/
+   44  ls
+   45  cd Dimpho-Putu-606-tilde-project-tutorial-how-repo-projects-work-/
+   46  ls
+   47  git add .
+   48  git commit -m "intial commit"
+   49  git config user.email "diputu@student.wethinkcode.co.za"
+   50  sudo chmod 400 
+   51  sudo chmod 400 /mnt/c/Users/Dimpho Putu/Documents/Dimpho-Putu-606-tilde-project-tutorial-how-repo-projects-work-/.git/config
+   52  git status
+   53  sudo chmod 400 .git
+   54  sudo chmod 400 .git/config
+   55  git config user.email "diputu@student.wethinkcode.co.za"
+   56  sudo chmod 400 .git/config.lock
+   57  sudo chmod 400 .git
+   58  ls -la
+   59  ls -la ~/.gitconfig
+   60  cat ~/.gitconfig
+   61  cd .git
+   62  ls
+   63  cd config
+   64  cat config 
+   65  cd ..
+   66  git config --global user.name "dimpho0101"
+   67  git add .
+   68  git commit -m "intial commit"
+   69  git config --global user.email "diputu@student.wethinkcode.co.za"
+   70  git add .
+   71  git config --global user.name "dimpho0101"
+   72  git commit -m "intial commit"
+   73  git add .
+   74  git commit -m "intial commit"
+   75  git status
+   76  ls
+   77  git add
+   78  git add *
+   79  git status
+   80  touch test1.txt
+   81  git status
+   82  cat file.md 
+   83  ls
+   84  rm test1.txt
+   85  git push
+   86  git push --set-upstream origin new_branch
+   87  cd ..
+   88  rm -rf Dimpho-Putu-606-tilde-project-tutorial-how-repo-projects-work-/
+   89  chmod 777 Dimpho-Putu-606-tilde-project-tutorial-how-repo-projects-work-/ -r
+   90  ls
+   91  sudo
+   92  sudo rm -rf Dimpho-Putu-606-tilde-project-tutorial-how-repo-projects-work-
+   93  sudo chmod 777 Dimpho-Putu-606-tilde-project-tutorial-how-repo-projects-work-
+   94  rm -rf Dimpho-Putu-606-tilde-project-tutorial-how-repo-projects-work-/
+   95  ls
+   96  cd ../..
+   97  ls
+   98  cd Users/
+   99  ls
+  100  cd Dimpho\ Putu/
+  101  ls
+  102  cd Documents/
+  103  ls
+  104  mkdir git-basic-exercises
+  105  cd git-basic-exercises/
+  106  ls -a
+  107  git init
+  108  touch READ.md
+  109  git add .
+  110  rm READ.md 
+  111  touch README.md
+  112  git add .
+  113  git commit -m "readme file added"
+  114  git log
+  115  vi README.md 
+  116  git stats
+  117  git status
+  118  git commit -m "readme file edited"
+  119  vi README.md 
+  120  git commit -m "second commit"
+  121  vi README.md 
+  122  git commit -m "third commit"
+  123  git log
+  124  vi README.md 
+  125  git add .
+  126  git commit -m "second commit"
+  127  vi README.md 
+  128  git add .
+  129  git commit -m "third commit"
+  130  git log
+  131  cd ..
+  132  rm -rf git-basic-exercises
+  133  mkdir git-basic-exercises
+  134  cd git-basic-exercises/
+  135  git init
+  136  vi README.md
+  137  ls
+  138  git add .
+  139  git commit -m "initial commit"
+  140  vi README.md
+  141  git add .
+  142  git commit -m "second commit"
+  143  vi README.md
+  144  git add .
+  145  git commit -m "third commit"
+  146  git log
+  147  q
+  148  git checkout 54b2165c0c6d74795ea4806296dbb250c20721fa
+  149  git checkout main
+  150  git checkout master
+  151  git branch milkshake-flavours
+  152  git branch
+  153  git checkout milkshake-flavours 
+  154  nano milkshakes.md
+  155  ls -la
+  156  vi milkshakes.md
+  157  git add .
+  158  git commit -m "added intial flavours"
+  159  git log
+  160  git checkout master
+  161  git checkout history
+  162  git log
+  163  git branch
+  164  git checkout -b history
+  165  git log
+  166  git branch
+  167  history > history.txt
